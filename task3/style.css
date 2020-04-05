@@ -1,30 +1,95 @@
-header{
-    text-align:center;
+body{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 
+img.logoimg{
+    width: 8%;
+    height: 8%;
+}
 .nav{
-    display:flex;
+   display:flex;
+   width: 50%;
+   margin-left: 25%;
+   padding-left: 0%;
 }
 
-.nav > div{
+.nav > li{
     color: #000000/#ffffff;
     flex:1;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav li+li{
+    border-left: 2px solid #cccccc;
 }
 
 .eyecatch{
     text-align:center;
+    margin:10px ;
+    border-top: 8px solid #ec6c2b;
+}
+
+.hyperlinkcolor{
+    color: #000000;
+}
+
+img.eyecatchimg{
+    width: 100%;
+    height: 100%;
 }
 
 h1{
-    text-align: center;
+    font-size: 200%;
+    margin: 0% 10%;
+    padding: 2% 0%;
+    border-bottom: solid 3px #ec6c2b;
+}
+
+.heading{
+    width: 65%;
 }
 
 p{
-    text-align: center;
+    color: #000000/#ffffff;
+    font-size: 120%;
+    padding: 2% 0%;
 }
 
-ul{
+/*
+.menu{
+    display: flex;
+}
+*/
+
+.menu > div{
+    /*color: #000000/#ffffff;
+    flex:1;
     text-align: center;
+    font-size: 150%;*/
+    position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 20px 30px;
+  margin: 20px 80px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #ec6c2b;
+  transition: .4s;
+}
+
+.menu > div:hover{
+    background: #ec6c2b;
+  color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.buttoncolor{
+    color:#ffffff;
 }
